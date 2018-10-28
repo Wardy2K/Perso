@@ -1,0 +1,379 @@
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+i {
+  color: #222;
+}
+
+strong {
+  font-weight: normal;
+}
+
+em {
+  font-style: normal;
+}
+
+.header {
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.logo:hover {
+  color: #c0392b;
+}
+
+.main_nav a {
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.main_nav a:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.container {
+  margin: 40px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.components {
+  background-color: #fff;
+  margin: 0 10px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px #888;
+  text-align: center;
+  border: 3px inset #444;
+}
+
+.competences {
+  height: 220px;
+  width: 25%;
+  min-width: 273px;
+}
+
+.propos {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.question {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+  width: 25%;
+  min-width: 273px;
+  height: 220px;
+}
+
+.tableau {
+  margin: 0 auto;
+}
+
+td {
+  text-align: center;
+}
+
+/* PROGRESS BARS */
+
+.progress-bar-html {
+  width: 150px;
+  height: 12px;
+  padding: 4px;
+  background-color: #191919;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+  -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+  -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar-html:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 12px;
+  background: #999;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar-html:after {
+  content: "|||||||||||||";
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 12px;
+  overflow: hidden;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  transform: skewX(-30deg);
+  -webkit-transform: skewX(-30deg);
+  -moz-transform: skewX(-30deg);
+  -o-transform: skewX(-30deg);
+  font: bold 120px/80px sans-serif;
+  letter-spacing: -6px;
+  color: #000;
+  opacity: 0.06;
+}
+
+.progress-bar-css {
+  width: 150px;
+  height: 12px;
+  padding: 4px;
+  background-color: #191919;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+  -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+  -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar-css:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 12px;
+  background: #999;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar-css:after {
+  content: "|||||||||||||";
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 12px;
+  overflow: hidden;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  transform: skewX(-30deg);
+  -webkit-transform: skewX(-30deg);
+  -moz-transform: skewX(-30deg);
+  -o-transform: skewX(-30deg);
+  font: bold 120px/80px sans-serif;
+  letter-spacing: -6px;
+  color: #000;
+  opacity: 0.06;
+}
+
+.progress-bar-js {
+  width: 150px;
+  height: 12px;
+  padding: 4px;
+  background-color: #191919;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+  -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+  -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar-js:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 95px;
+  height: 12px;
+  background: #999;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar-js:after {
+  content: "|||||||||||||";
+  display: block;
+  position: absolute;
+  width: 95px;
+  height: 12px;
+  overflow: hidden;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  transform: skewX(-30deg);
+  -webkit-transform: skewX(-30deg);
+  -moz-transform: skewX(-30deg);
+  -o-transform: skewX(-30deg);
+  font: bold 120px/80px sans-serif;
+  letter-spacing: -6px;
+  color: #000;
+  opacity: 0.06;
+}
+
+/* PROGRESS BARS */
+
+.blue:before {
+  background: #099;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006a6b));
+  background: -moz-linear-gradient(top, #099, #006a6b);
+}
+
+.orange:before {
+  background: #e67e22;
+  background: -webkit-gradient(
+    linear,
+    0% 0%,
+    0% 100%,
+    from(#e67e22),
+    to(#d35400)
+  );
+  background: -moz-linear-gradient(top, #099, #006a6b);
+}
+
+.red:before {
+  background: #e74c3c;
+  background: -webkit-gradient(
+    linear,
+    0% 0%,
+    0% 100%,
+    from(#e74c3c),
+    to(#c0392b)
+  );
+  background: -moz-linear-gradient(top, #099, #006a6b);
+}
+
+.contact a,
+p {
+  font-size: 20px;
+}
+
+.mail {
+  padding-right: 5px;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  background-color: #222;
+  padding: 15px 20px;
+}
+
+.slider {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-bottom: 4px solid #c0392b; /*La bordure ne passe pas si je la met sur les slides à cause du overflow: hidden (La bordure est ajoutée à la height*/
+  border-top: 4px solid #c0392b;
+}
+
+.slides {
+  width: 200%;
+  animation: glisse 10s infinite;
+}
+
+.first {
+  height: 400px;
+  width: 50%;
+  background-image: url(img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+
+.second {
+  float: right;
+  width: 50%;
+  height: 400px;
+  background-image: url(img/banner2.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  line-height: 400px;
+  color: #fff;
+  font-size: 52px;
+  text-shadow: -4px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@keyframes glisse {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  75% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    display: block;
+  }
+
+  .components {
+    margin: 10px auto;
+    width: 100%;
+    padding: 5px 0;
+  }
+}
