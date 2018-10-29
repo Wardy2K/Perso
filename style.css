@@ -303,7 +303,7 @@ p {
   font-size: 20px;
 }
 
-.mail {
+.fontAwesome {
   padding-right: 5px;
 }
 
@@ -385,7 +385,7 @@ footer {
   background-color: rgb(126, 214, 223);
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1500px) {
   .container {
     display: block;
   }
@@ -395,8 +395,22 @@ footer {
     width: 100%;
     padding: 5px 0;
   }
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    display: block;
+  }
 
   .title {
     font-size: 24px;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .main_nav {
+    margin-top: 19px;
   }
 }
