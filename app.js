@@ -6,13 +6,13 @@ const ongletContact = document.getElementById("ongletContact");
 const contact = document.getElementById("contact");
 
 ongletPropos.addEventListener("click", function() {
-  Propos.classList.add("backgroundRed");
+  Propos.classList.toggle("backgroundRed");
 });
 
 ongletCompetences.addEventListener("click", function() {
-  Competences.classList.add("backgroundGreen");
+  Competences.classList.toggle("backgroundGreen");
 });
 
 ongletContact.addEventListener("click", function() {
-  contact.classList.add("backgroundBlue");
+  contact.classList.toggle("backgroundBlue");
 });
