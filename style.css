@@ -74,9 +74,16 @@ em {
 }
 
 .competences {
-  height: 220px;
   width: 25%;
   min-width: 273px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.competences h1 {
+  margin-top: 0;
 }
 
 .propos {
@@ -93,7 +100,7 @@ em {
   text-align: center;
   width: 25%;
   min-width: 273px;
-  height: 220px;
+  height: 260px;
 }
 
 .tableau {
