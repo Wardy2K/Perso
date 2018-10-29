@@ -65,12 +65,12 @@ em {
 }
 
 .components {
-  background-color: #fff;
   margin: 0 10px;
   border-radius: 3px;
   box-shadow: 2px 2px 2px #888;
   text-align: center;
   border: 3px inset #444;
+  transition: 0.3s;
 }
 
 .competences {
@@ -371,6 +371,18 @@ footer {
   100% {
     transform: translateX(0);
   }
+}
+
+.backgroundRed {
+  background-color: rgba(235, 77, 75, 0.5);
+}
+
+.backgroundGreen {
+  background-color: rgba(106, 176, 76, 0.5);
+}
+
+.backgroundBlue {
+  background-color: rgb(126, 214, 223);
 }
 
 @media screen and (max-width: 1100px) {
