@@ -71,6 +71,7 @@ em {
   text-align: center;
   border: 3px inset #444;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .competences {

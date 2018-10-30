@@ -16,3 +16,15 @@ ongletCompetences.addEventListener("click", function() {
 ongletContact.addEventListener("click", function() {
   contact.classList.toggle("backgroundBlue");
 });
+
+Propos.addEventListener("click", function() {
+  this.classList.toggle("backgroundRed");
+});
+
+Competences.addEventListener("click", function() {
+  this.classList.toggle("backgroundGreen");
+});
+
+contact.addEventListener("click", function() {
+  this.classList.toggle("backgroundBlue");
+});
