@@ -385,6 +385,22 @@ footer {
   background-color: rgb(126, 214, 223);
 }
 
+.phone {
+  color: #27ae60;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.mail {
+  color: #e74c3c;
+}
+
+.localisation {
+  color: #e67e22;
+}
+
 @media screen and (max-width: 1500px) {
   .container {
     display: block;
