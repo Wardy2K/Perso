@@ -1,131 +1,205 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Edgar Paya | Créateur de sites webs</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS -->
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+      integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+      crossorigin="anonymous"
+    />
+    <!-- FONT AWESOME -->
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="img/avatar.png" />
+    <!-- FAVICON -->
+    <meta
+      name="google-site-verification"
+      content="VWcVrkL682tjixEnMcOw3fcLoImWuPjiiGaYfUzFHdE"
+    />
+    <!-- ADSENSE -->
+    <script
+      async
+      src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-9367609392956001",
+        enable_page_level_ads: true
+      });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-128357380-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Edgar Paya | Créateur de sites webs</title>
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
-  <!-- CSS -->
-  <!-- FONT AWESOME -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
-    crossorigin="anonymous">
-  <!-- FONT AWESOME -->
-  <!-- FAVICON -->
-  <link rel="icon" type="image/png" href="img/avatar.png" />
-  <!-- FAVICON -->
-  <meta name="google-site-verification" content="VWcVrkL682tjixEnMcOw3fcLoImWuPjiiGaYfUzFHdE" />
-  <!-- ADSENSE -->
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-9367609392956001",
-      enable_page_level_ads: true
-    });
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128357380-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "UA-128357380-1");
+    </script>
+  </head>
 
-    gtag('config', 'UA-128357380-1');
-  </script>
-</head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Edgar Paya</a>
+      <nav class="main_nav">
+        <a href="#aPropos" id="propos">&Agrave; Propos</a>
+        <a href="#competences" id="ongletCompetences">Compétences</a>
+        <a href="#contact" id="ongletContact">Contact</a>
+        <a href="#interet" id="ongletInteret">Intêret</a>
+      </nav>
+    </header>
 
-<body>
-  <header class="header">
-    <a href="#" class="logo">Edgar Paya</a>
-    <nav class="main_nav">
-      <a href="#aPropos" id="propos">&Agrave; Propos</a>
-      <a href="#competences" id="ongletCompetences">Compétences</a>
-      <a href="#contact" id="ongletContact">Contact</a>
-    </nav>
-  </header>
+    <!-- BANNER -->
+    <div class="slider">
+      <div class="slides">
+        <div class="slide first"><h2 class="title">Bienvenue</h2></div>
 
-  <!-- BANNER -->
-  <div class="slider">
-    <div class="slides">
-      <div class="slide first">
-        <h2 class="title">Bienvenue</h2>
+        <div class="slide second">
+          <h1 class="title">Créateur de sites webs</h1>
+        </div>
       </div>
+    </div>
+    <!-- BANNER -->
 
-      <div class="slide second">
-        <h2 class="title">Un personnel dédié à 100%</h2>
+    <!-- CORPS -->
+    <div class="container">
+      <div class="components competences" id="competences">
+        <h2>Compétences</h2>
+        <table class="tableau">
+          <tr>
+            <td>HTML</td>
+            <td><div class="progress-bar-html blue"></div></td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td><div class="progress-bar-css orange"></div></td>
+          </tr>
+          <tr>
+            <td>JS</td>
+            <td><div class="progress-bar-js red"></div></td>
+          </tr>
+        </table>
+      </div>
+      <div class="components propos" id="aPropos">
+        <h2>&Agrave; propos</h2>
+        <p class="question">Qui suis-je ?</p>
+        <p>
+          Je m'appelle Edgar, j'ai 17 ans et je suis
+          <strong>créateur de sites webs.</strong>
+        </p>
+        <p class="question">
+          Qu'est-ce qui m'a fait vouloir être développeur ?
+        </p>
+        <p>
+          C'est l'année dernière, lors de mon année de 1ère que je suis tombé
+          par hasard sur le développement web. Depuis, je ne cesse d'apprendre
+          les nouvellles technologies pour réaliser le plus de sites webs
+          possible et ce de manière progresser.
+        </p>
+        <p class="question">Quel genre de site suis-je capable de réaliser ?</p>
+        <p>
+          Je peux réaliser tout genre de site web statique. En effet, je ne
+          réalise que des sites vitrines car ceux-ci proposent de nombreux
+          avantages, ils sont notamment gratuit à la mise en ligne et
+          nécéssitent moins d'entretien que des grosses applications.
+        </p>
+        <p class="question">Combien valent mes services ?</p>
+        <p>
+          La <em>création d'un site web</em> vous coûtera 200€ ce qui est
+          convaincant par rapport aux 1000, 2000 € demandés habituellement. En
+          effet, en tant qu'amateur, je vous propose mes services à un prix très
+          bas car je ne suis pas un professionnel. Je reste toutefois apte à
+          effectuer un site web design et fonctionnel en relation avec un
+          client.
+        </p>
+      </div>
+      <div class="components contact" id="contact">
+        <h2>Contact</h2>
+        <p>
+          <a href="mailto:edgar.paya01@gmail.com"
+            ><i class="fas fa-envelope fontAwesome mail"></i>Mon mail</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://www.facebook.com/profile.php?id=100005677757643&ref=bookmarks"
+            target="_blank"
+            ><i class="fab fa-facebook-square fontAwesome facebook"></i>Mon
+            Facebook
+          </a>
+        </p>
+        <p><i class="fas fa-phone fontAwesome phone"></i>07 88 17 06 59</p>
+        <p>
+          <i class="fas fa-map-marker-alt fontAwesome localisation"></i>Yvelines
+        </p>
       </div>
     </div>
-  </div>
-  <!-- BANNER -->
 
-  <!-- CORPS -->
-  <div class="container">
-    <div class="components competences" id="competences">
-      <h1>Compétences</h1>
-      <table class="tableau">
-        <tr>
-          <td>HTML</td>
-          <td>
-            <div class="progress-bar-html blue"></div>
-          </td>
-        </tr>
-        <tr>
-          <td>CSS</td>
-          <td>
-            <div class="progress-bar-css orange"></div>
-          </td>
-        </tr>
-        <tr>
-          <td>JS</td>
-          <td>
-            <div class="progress-bar-js red"></div>
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div class="components propos" id="aPropos">
-      <h1>&Agrave; propos</h1>
-      <p class="question">Qui suis-je ?</p>
-      <p>Je m'appelle Edgar, j'ai 17 ans et je suis <strong>créateur de sites webs.</strong></p>
-      <p class="question">Qu'est-ce qui m'a fait vouloir être développeur ?</p>
-      <p>C'est l'année dernière, lors de mon année de 1ère que je suis tombé par hasard sur le développement web. Depuis,
-        je ne cesse d'apprendre les nouvellles technologies pour réaliser le plus de sites webs possible et ce de manière
-        progresser.
+    <section class="interet" id="interet">
+      <h2>Intêret</h2>
+      <div class="flex space-top">
+        <img
+          src="img/worker.jpeg"
+          alt="Travailleur"
+          width="500px"
+          height="400px"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+          doloribus iusto ullam? Aperiam et quaerat, iste, voluptas numquam,
+          autem tempora facilis eveniet dolores eius fugiat accusamus unde fuga
+          quos doloremque similique reiciendis esse perspiciatis natus explicabo
+          sapiente necessitatibus sit? Sint earum ut alias, inventore labore
+          dicta placeat, eligendi est maxime deserunt nostrum doloremque dolore,
+          vero vitae saepe sunt distinctio sapiente. Consequuntur tenetur iusto
+          in reprehenderit fugiat quod, necessitatibus nobis non dicta ducimus
+          cupiditate quisquam amet error natus consequatur repellendus ipsam!
+          Numquam consectetur debitis a voluptatum incidunt. Cum laudantium
+          cupiditate voluptas magni harum delectus praesentium repellat placeat
+          quam deleniti debitis, ratione temporibus reprehenderit commodi
+          accusamus illum ipsam optio et necessitatibus amet molestiae id ad ut.
+          Animi esse mollitia est molestias totam reprehenderit odio porro,
+          sapiente commodi optio, minima voluptatibus dolorum rem sequi itaque
+          dicta, ad eum distinctio. Maiores excepturi accusamus molestiae quam
+          iusto nemo saepe cumque! Laboriosam porro fuga tempore quod commodi
+          aperiam est, perferendis excepturi dicta, maxime molestias, nulla
+          animi nobis? Dolor ipsam voluptatem commodi sapiente repellat,
+          perspiciatis laboriosam accusantium sit illo recusandae cumque
+          molestiae rerum odio veniam, quo hic id pariatur, architecto soluta
+          libero officia culpa. Quam, exercitationem ullam. Laboriosam impedit
+          nam quaerat sunt ullam saepe dignissimos neque aliquid!
+        </p>
+      </div>
+    </section>
+    <!-- CORPS -->
+
+    <footer>
+      <p>
+        &copy; Tous droits réservés. Toute reproduction est interdite sans
+        l’autorisation de l’auteur.Toute utilisation du Nom de l’oeuvre
+        interdite sans l’autorisation de l’auteur.<br /><br />Codé avec
+        &#x2764;&#xFE0F; par <strong>Edgar Paya </strong>
       </p>
-      <p class="question">Quel genre de site suis-je capable de réaliser ?</p>
-      <p>Je peux réaliser tout genre de site web statique. En effet, je ne réalise que des sites vitrines car ceux-ci proposent
-        de nombreux avantages, ils sont notamment gratuit à la mise en ligne et nécéssitent moins d'entretien que des grosses
-        applications.
-      </p>
-      <p class="question">Combien valent mes services ?</p>
-      <p>La <em>création d'un site web</em> vous coûtera 200€ ce qui est convaincant par rapport aux 1000, 2000 € demandés
-        habituellement. En effet, en tant qu'amateur, je vous propose mes services à un prix très bas car je ne suis pas
-        un professionnel. Je reste toutefois apte à effectuer un site web design et fonctionnel en relation avec un client.</p>
-    </div>
-    <div class="components contact" id="contact">
-      <h1>Contact</h1>
-      <p><a href="mailto:edgar.paya01@gmail.com"><i class="fas fa-envelope fontAwesome mail"></i>Mon mail</a></p>
-      <p><a href="https://www.facebook.com/profile.php?id=100005677757643&ref=bookmarks" target="_blank"><i class="fab fa-facebook-square fontAwesome facebook"></i>Mon
-          Facebook
-        </a></p>
-      <p><i class="fas fa-phone fontAwesome phone"></i>07 88 17 06 59</p>
-      <p><i class="fas fa-map-marker-alt fontAwesome localisation"></i>Yvelines</p>
-    </div>
-  </div>
-  <!-- CORPS -->
+    </footer>
 
-  <footer>
-    <p>&copy; Tous droits réservés. Toute reproduction est interdite sans l’autorisation de l’auteur.Toute utilisation du
-      Nom de l’oeuvre interdite sans l’autorisation de l’auteur.<br/><br/>Codé avec &#x2764;&#xFE0F; par <strong>Edgar Paya
-      </strong></p>
-  </footer>
-
-  <script src="app.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="jquery.js"></script>
-</body>
-
+    <script src="app.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="jquery.js"></script>
+  </body>
 </html>
