@@ -25,6 +25,10 @@ em {
   font-style: normal;
 }
 
+.mt0 {
+  margin-top: 0;
+}
+
 .flex {
   display: flex;
   width: 90%;
